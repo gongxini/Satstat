@@ -1,0 +1,77 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .externalToolBuilders/
+* .externalToolBuilders/Set Build Info.launch
+* .gitignore
+* LICENSE
+* README.md
+* extra/
+* extra/ic_action_radio.png
+* extra/ic_action_radio.svg
+* extra/ic_action_record.png
+* extra/ic_action_record.svg
+* extra/ic_action_sensor.svg
+* extra/ic_action_stop.png
+* extra/ic_action_stop.svg
+* extra/ic_content_wifi_eap.png
+* extra/ic_content_wifi_eap.svg
+* extra/ic_content_wifi_open.png
+* extra/ic_content_wifi_open.svg
+* extra/ic_content_wifi_psk.png
+* extra/ic_content_wifi_psk.svg
+* extra/ic_content_wifi_wep.png
+* extra/ic_content_wifi_wep.svg
+* extra/ic_launcher.png
+* extra/ic_launcher.svg
+* extra/ic_stat_notify_location.png
+* extra/ic_stat_notify_location.svg
+* extra/ic_stat_notify_nolocation.png
+* extra/ic_stat_notify_nolocation.svg
+* extra/stat_notify_record.png
+* extra/stat_notify_record.svg
+* ic_launcher-web.png
+* proguard-project.txt
+* setbuild.sh
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
